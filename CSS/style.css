@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../Imagenes/fondoindex.png);
+}
+
+h1 {
+    font-family: 'Liberation Serif';
+    font-size: 20pt;
+}
+
+h2 {
+    font-family: 'Liberation Serif';
+    font-size: 20pt;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+}
+
+header {
+    background-color: palevioletred;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    margin: 10px;
+}
+
+#grid {
+    padding: 10px;
+    display: grid;
+    height: 200px;
+    width: 350px;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 40px 40px 40px;
+    background-color: palevioletred;
+    grid-gap: 10px;
+    margin: 100px 35%;
+}
+
+.item {
+    background-color: palevioletred;
+    text-decoration: none;
+    color: white;
+    text_aling: center;
+    .item:hover {
+        background-color: blue;
+    }
+    transition: all:ease-auto.5s
+}
+
+footer {
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-color: palevioletred
+}
+
+footer div {
+    text-align: end;
+    padding: var(--padding-secundario);
+    color: var(--color-negro);
+    font-weight: 400;
+    padding-top: 30px;
+    padding-right: 33px;
+}
+
+.item:hover {
+    background-color: red;
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../Imagenes/fondo2.jpg);
+}
+
+#grid {
+    padding: 10px;
+    display: grid;
+    height: 100px;
+    width: 300px;
+    grid-gap: 20px;
+    margin: 40px 30%;
+}
